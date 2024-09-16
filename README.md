@@ -32,6 +32,7 @@ correlation_matrix = df.corr()
 sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
 ```
 
+
 ### Correlation Matrix Heatmap:
 ![Correlation Matrix Heatmap](./Correlation_Matrix_Heatmap.png)
 
@@ -55,10 +56,6 @@ After fitting the model, we plotted the feature importance to identify which fea
 coefficients = pd.DataFrame({'Feature': X.columns, 'Coefficient': best_model.coef_[0]})
 coefficients.sort_values(by='Coefficient', ascending=False).plot(kind='barh', x='Feature', y='Coefficient')
 ```
-
-### Feature Importance Plot:
-![Feature Importance](./Feature_Importance.png)
-From this plot, it’s clear that LaunchYear had the highest importance in predicting the mission’s success, while RocketStatusCode had relatively less influence.
 
 ---
 

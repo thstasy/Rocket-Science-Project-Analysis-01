@@ -1,5 +1,7 @@
 # Rocket Launch Success Prediction Using Logistic Regression
 
+A more refined article can be found on my medium blog here: https://thstasy.medium.com/rocket-launch-success-prediction-using-logistic-regression-5b029439da38
+
 ## Introduction
 In this project, we aim to predict the success of rocket launches based on features such as launch year, rocket status, and other variables. The dataset used for this analysis is from the Kaggle Space Missions dataset, and we applied Logistic Regression to model the binary classification of mission success.
 
